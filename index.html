@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instituto Xavier — Landing Page</title>
+
+  <!-- 2 Google Fonts: Poppins (títulos) e Open Sans (texto) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="landing.css">
+</head>
+<body>
+
+  <!-- Navegação -->
+  <header class="nav">
+    <a class="nav__logo" href="#topo">Instituto Xavier</a>
+    <nav class="nav__links">
+      <a href="#contato">Contato</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#servicos">Serviços</a>
+    </nav>
+  </header>
+
+  <!-- Banner (centralizado) -->
+  <section class="banner" id="topo">
+    <h1>Mutantes e humanos, juntos</h1>
+    <p>Proteção, treinamento e acolhimento contra a ameaça das Sentinelas.</p>
+    <a class="btn btn--amarelo" href="#contato">Pedir ajuda</a>
+  </section>
+
+  <!-- Sobre (alinhado à esquerda) -->
+  <section class="secao secao--esquerda" id="sobre">
+    <h2>Sobre nós</h2>
+    <p>
+      Desde 1963 o Instituto Xavier acolhe jovens mutantes, ensina a controlar
+      seus poderes e defende a convivência pacífica entre mutantes e humanos.
+    </p>
+  </section>
+
+  <!-- Serviços (alinhado à direita) -->
+  <section class="secao secao--direita" id="servicos">
+    <h2>Nossos serviços</h2>
+    <p>Teste do gene X e identificação de poderes.</p>
+    <p>Treinamento e controle de habilidades.</p>
+    <p>Proteção e resgate contra Sentinelas.</p>
+  </section>
+
+  <!-- Formulário (centralizado) -->
+  <section class="secao secao--centro" id="contato">
+    <form class="form" action="#" method="post">
+      <h2 class="form__titulo">Solicite uma Avaliação Gratuita</h2>
+      <p class="form__sub">Preencha o formulário abaixo e nossa equipe entrará em contato em breve</p>
+
+      <div class="form__linha">
+        <label>Nome Completo
+          <input type="text" placeholder="Seu nome">
+        </label>
+        <label>Email
+          <input type="email" placeholder="seu@email.com">
+        </label>
+      </div>
+
+      <div class="form__linha">
+        <label>Codinome
+          <input type="text" placeholder="Seu codinome">
+        </label>
+        <label>Telefone
+          <input type="tel" placeholder="(11) 99999-9999">
+        </label>
+      </div>
+
+      <label>Qual serviço você precisa?
+        <select>
+          <option>Selecione um serviço</option>
+          <option>Teste do gene X</option>
+          <option>Treinamento de poderes</option>
+          <option>Proteção contra Sentinelas</option>
+        </select>
+      </label>
+
+      <label>Nível de ameaça
+        <input type="text" placeholder="Baixo, médio ou alto">
+      </label>
+
+      <label>Conte-nos sobre sua situação
+        <textarea rows="4" placeholder="Descreva brevemente o que está acontecendo..."></textarea>
+      </label>
+
+      <label class="form__check">
+        <input type="checkbox">
+        Concordo em receber comunicações do Instituto Xavier
+      </label>
+
+      <button class="btn btn--roxo" type="submit">Enviar solicitação</button>
+    </form>
+  </section>
+
+  <!-- Footer (informações alinhadas à direita) -->
+  <footer class="footer">
+    <div class="footer__col">
+      <h3>Instituto Xavier</h3>
+      <p>Protegendo e educando mutantes desde 1963.</p>
+    </div>
+    <div class="footer__col">
+      <h3>Links Rápidos</h3>
+      <a href="#sobre">Sobre nós</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#contato">Contato</a>
+    </div>
+    <div class="footer__col">
+      <h3>Contato</h3>
+      <p>contato@xavier.edu</p>
+      <p>(11) 99999-9999</p>
+      <p><strong>Westchester, NY - EUA</strong></p>
+    </div>
+  </footer>
+
+</body>
+</html>
